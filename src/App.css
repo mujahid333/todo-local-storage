@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +34,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +43,84 @@
     transform: rotate(360deg);
   }
 }
+
+.header-component{
+  background-color:#FFFFFF;
+  width: 100%;
+ 
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 1rem auto;
+}
+.login-btn{
+  margin-right: 15px;
+  border: 0;
+  background-color: transparent;
+  font-size: large;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.register-btn{
+  background-color: #2bb8b9;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.discount-section{
+  background-color: #c9373f;
+  width: 100%;
+}
+.discount-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.offer{
+  color: white;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.hero{
+  background-image: url("../public/hero.jpg");
+  opacity: 0.75;
+  z-index: 1;
+  min-height: 400px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.hero-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height:400px;
+  margin:0 90px;
+  position: relative;
+  justify-content: center;
+  }
+  .hero-contant{
+    width:50%;
+  }
+  .hero-contant button{
+    margin-top: 20px;
+    cursor: pointer;
+
+  }
+  .hero-contant h1{
+    line-height: 30px;
+    margin: 1rem 0;
+  }
+
