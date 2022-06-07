@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
 *{
   margin: 0;
   padding: 0;
@@ -61,7 +63,7 @@
   border: 0;
   background-color: transparent;
   font-size: large;
-  font-weight: 400;
+  font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
@@ -69,7 +71,7 @@
   background-color: #2bb8b9;
   color: white;
   font-size: large;
-  font-weight: 400;
+  font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
   border: 0;
@@ -113,6 +115,7 @@
   }
   .hero-contant{
     width:50%;
+
   }
   .hero-contant button{
     margin-top: 20px;
@@ -123,4 +126,135 @@
     line-height: 30px;
     margin: 1rem 0;
   }
+  .info-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    margin:10px 90px;
+  }
+  .info{
+    margin: 50px 20px;
+  }
+  .info img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  .info-heading{
+    margin-bottom: 15px;
+  }
+  .brand{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #325f80;
+    color:white;
+
+  }
+  .brand h2{
+    padding : 10px 0;
+
+  }
+  .brand-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 90px;
+  }
+  .brand-btn{
+    background-color: #2bb8b9;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  .brand-child img{
+    height: 165px;
+    width: 180px;
+    margin: 5px 10px;
+
+  }
+  .rating-child img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  .rating{
+    width: 100%;
+    padding: 50px 0;
+    background-color: white;
+    color:white;
+  }
+  .rating img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  .rating-parent h2{
+    padding-top : 60px;
+    padding-bottom: 10px;
+    font-size: 30px;
+
+  }
+  .info p{
+    padding: 10px;
+  }
+  .poster{
+    float: right;
+   
+  }
+  .service-parent{
+    background-color: transparent;
+    margin: 80px 90px;
+  }
+
+  .service{
+    margin: 20px 30px;
+  }
+  .service img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  .footer-main{
+    background-color: #325f80;
+    width: 100%;
+    padding: 50px 5px;
+  }
+  .footer-main h2{
+    color: white;
+    padding: 40px;
+    font-family: Great Vibes;
+    
+  }
+  .footer-child{
+    background-color:transparent;
+    margin: 10px 90px;
+
+  }
+  .footer-child p{
+    color: black;
+    font-size: 12px;
+
+  }
+  .signup-btn{
+    background-color: #2bb8b9;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
 
